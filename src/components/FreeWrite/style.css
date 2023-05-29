@@ -1,0 +1,41 @@
+.ql-container {
+	border-left: 0 !important;
+	border-right: 0 !important;
+	border-bottom: 0 !important;
+	font-family: "Segoe UI", sans-serif !important;
+	font-style: normal !important;
+	color: #475467;
+}
+
+/* do a style for paragraphs within ql-container */
+.ql-container p {
+	font-size: 1rem; /* 16px */
+	line-height: 1.5rem; /* 24px */
+}
+
+.ql-container h1 {
+	font-size: 1.25rem; /* 20px */
+	line-height: 1.75rem; /* 28px */
+}
+
+.ql-container h2 {
+	font-size: 1.5rem; /* 24px */
+	line-height: 2rem; /* 32px */
+}
+
+.ql-toolbar {
+	border-top: 0 !important;
+	border-left: 0 !important;
+	border-right: 0 !important;
+	border-color: (#475467, 0.2);
+	margin-bottom: 0.5rem;
+}
+
+.quill {
+	background-color: white;
+	box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+	border-radius: 1rem;
+	padding-top: 0.5rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
